@@ -1,16 +1,117 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    width: 1440px;
-    height: 2400px;
+    width: 100%;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
 }
-.container{
+
+h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+}
+.conteiner{
+    max-width: 944px;
+    width: 100%;
+    margin:0 auto;
+}
+nav { 
+    width:100%;
+}
+
+.menu-inf{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 12px;
+    list-style: none;
+}
+hr{
     width: 944px;
-    height: 100%;
+    margin: auto auto;
+}
+.name{
+    width: 133px;
+    height: 112px;
+    
+}
+.name p{
+    font-size: 48px;
+    font-weight: 900;
+    width: 145px;
+}
+.shor-about-me{
+    margin-top: 40px;
+    width: 163px;
+    height: 88px;
+}
+.shor-about-me p{
+    width: 163px;
+    height: 88px;
+}
+.language{
+    transform: rotate(-90deg);
+    font-size: 20px;
+}
+.language span{
+    font-weight: 900;
+}
+.home{
+    width:944px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home img{
+    width: 944px;
+    height: 385.27px;
+    margin-top: 90px;
+}
+.about-me{
+    height: 500px;
+    width: 1440px;
+    background-color: ghostwhite;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+p{
+    font-size: 20px;
+}
+.about-me p:nth-child(3n){
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.about-me h2{
+    margin-bottom: 30px;
+}
+.skills{
+    width:944px;
+    height:405px;
+}
+.stars{
+    display:flex;
+}
+
+.photo {
+    background: url(../img/desktop.png) center center no-repeat;
+    background-size: cover;
+    width: 944px;
+    height: 385px;
 }
